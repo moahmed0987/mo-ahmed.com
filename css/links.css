@@ -12,4 +12,24 @@
 .links a {
     text-decoration: none;
     color: white;
+    position: relative;
+    padding: 10px;
+}
+
+.links a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: white;
+    height: 1px;
+    transition: all .5s;
+}
+
+.links a:hover:after {
+    width: 100%;
 }
