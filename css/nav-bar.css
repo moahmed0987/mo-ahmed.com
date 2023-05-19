@@ -23,14 +23,26 @@
 .nav-item-link {
     display: block;
     text-decoration: none;
+    color: black;
     font-size: 1.4rem;
+    position: relative;
+    padding: 10px;
 }
 
-.nav-item-link {
-    padding: 15px;
+.nav-item-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: black;
+    height: 1px;
+    transition: all .5s;
 }
 
-.nav-item-link:hover {
-    background-color: #8CAABF;
-    transition: background-color 250ms linear;
+.nav-item-link:hover:after {
+    width: 100%;
 }
