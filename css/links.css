@@ -33,3 +33,8 @@
 .links a:hover:after {
     width: 100%;
 }
+
+.link-logo {
+    height: 20px;
+    margin-right: 10px;
+}
