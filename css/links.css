@@ -38,3 +38,9 @@
     height: 20px;
     margin-right: 10px;
 }
+
+@media all and (max-width:1000px) {
+    .links {
+        width: 100%;
+    }
+}

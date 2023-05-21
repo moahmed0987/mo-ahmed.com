@@ -25,3 +25,13 @@ header {
 .header-text {
     width: 60%;
 }
+
+@media all and (max-width:1000px) {
+    .header-text {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+}

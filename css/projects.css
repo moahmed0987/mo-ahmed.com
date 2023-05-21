@@ -33,3 +33,20 @@
 .stack-container p {
     margin: 0;
 }
+
+@media all and (max-width:1000px) {
+    .heading {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .stack-container {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center; 
+        gap: 5px 10px;       
+    }
+
+    
+}
