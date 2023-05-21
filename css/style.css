@@ -57,11 +57,6 @@ section {
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    .section-title {
-        text-align: center;
-        margin: 20px 0;
-    }
 }
 
 @media all and (max-width:700px) {
@@ -74,13 +69,8 @@ section {
         align-items: center;
     }
 
-    .section-title {
-        text-align: center;
-        margin: 20px 0;
-    }
-
     * {
-        font-size: 15px;
+        font-size: 0.75rem;
     }
 }
 
@@ -94,12 +84,7 @@ section {
         align-items: center;
     }
 
-    .section-title {
-        text-align: center;
-        margin: 20px 0;
-    }
-
     * {
-        font-size: 10px;
+        font-size: 0.6rem;
     }
 }
