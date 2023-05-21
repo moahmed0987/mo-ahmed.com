@@ -5,3 +5,28 @@
     border-radius: 10px;
     
 }
+
+.project h2 {
+    margin: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stack-container {
+    display: flex;
+    gap: 10px;
+    opacity: 0.5;
+}
+
+.stack-item {
+    background-color: #0f0f0f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.stack-container p {
+    margin: 0;
+}
