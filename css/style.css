@@ -24,3 +24,9 @@ section {
     width: 70%;
     justify-content: center;
 }
+
+.section-title {
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+}
