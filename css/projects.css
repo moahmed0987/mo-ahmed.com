@@ -6,8 +6,10 @@
     
 }
 
-.project h2 {
+.heading h2 {
     margin: 0;
+    font-weight: 400;
+    font-size: 1.3rem;
 }
 
 .heading {
@@ -25,6 +27,7 @@
     background-color: #0f0f0f;
     padding: 5px;
     border-radius: 5px;
+    height: fit-content;
 }
 
 .stack-container p {
