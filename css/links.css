@@ -9,14 +9,14 @@
     width: 50%;
 }
 
-.links a {
+.link {
     text-decoration: none;
     color: white;
     position: relative;
     padding: 10px;
 }
 
-.links a:after {
+.link:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -30,7 +30,7 @@
     transition: all .5s;
 }
 
-.links a:hover:after {
+.link:hover:after {
     width: 100%;
 }
 
