@@ -2,3 +2,33 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.social-link {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 10px;
+}
+
+.social-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: white;
+    height: 1px;
+    transition: all .5s;
+}
+
+.social-link:hover:after {
+    width: 100%;
+}
+
+.social-link-logo {
+    height: 20px;
+    filter: contrast(0%) brightness(50%) invert(1);
+}
