@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-* {
+html {
     box-sizing: border-box;
     font-size: 20px;
 }
@@ -68,10 +68,6 @@ section {
         flex-direction: column-reverse;
         align-items: center;
     }
-
-    * {
-        font-size: 0.75rem;
-    }
 }
 
 @media all and (max-width:500px) {
@@ -84,7 +80,7 @@ section {
         align-items: center;
     }
 
-    * {
-        font-size: 0.6rem;
+    html {
+        font-size: 14px;
     }
 }
