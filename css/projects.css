@@ -28,6 +28,7 @@
     padding: 5px;
     border-radius: 5px;
     height: fit-content;
+    width: max-content;
 }
 
 .stack-container p {
@@ -39,6 +40,10 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+
+    .heading h2 {
+        text-align: center;
     }
 
     .stack-container {
