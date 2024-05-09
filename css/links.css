@@ -16,6 +16,11 @@
     padding: 10px;
 }
 
+.inline-link {
+    padding: 0;
+    font-weight: bold
+}
+
 .link:after {
     position: absolute;
     bottom: 0;
