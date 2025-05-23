@@ -40,7 +40,7 @@
     color: transparent;
     background: white;
     height: 1px;
-    transition: all .5s;
+    transition: all .3s;
 }
 
 .nav-item-link:hover:after {
